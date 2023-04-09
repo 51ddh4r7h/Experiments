@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #a20909c1;
+    color: #f5f6f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #343743;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(78, 73, 73, 0.3);
+    width: 60vw;
+    max-width: 100%;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 10px;
+}
+
+input,
+textarea {
+    background-color: #ababb0;
+    border: 1px solid #0a0a23;
+    color: #0a0909;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #ababb0;
+    border-color: white;
+    min-width: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+a {
+    color: #dfdfe2;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+/* Hide the default input */
+input[type="file"] {
+    display: none;
+}
+
+/* Style the label to look like a button */
+.profile-picture {
+    display: inline-block;
+    background-color: #928b8b;
+    color: white;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.profile-picture:hover {
+    background-color: #3e8e41;
+}
+
+.profile-picture:active {
+    background-color: #2e6734;
+}
